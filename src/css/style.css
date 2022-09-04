@@ -1,0 +1,46 @@
+#message {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+}
+
+#message p img {
+  display: none;
+}
+
+#message a.btn {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#message .mu {
+  flex: 0 1 calc(100% / 4);
+  position: relative;
+  border: 1px solid #ececec;
+  padding: 1em;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+#message .mu img {
+  width: 100%;
+  height: auto;
+}
+
+#message .mu h3 {
+  margin: 0.5em 0;
+  font-size: 1.3rem;
+}
+
+#message .mu p {
+  margin: 0;
+  padding: 0;
+}
+
+#message .mu small {
+  display: block;
+  font-size: 1rem;
+}
